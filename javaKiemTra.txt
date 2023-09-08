@@ -1,0 +1,11 @@
+2 câu tính s 
+1 câu mảng
+1 câu hđt 
+
+cho 1 tập tin, đếm xem trong tập tin có bao nhiêu chuỗi "abc"
+
+cho thư mục, đếm xem trong thư mục đó và các thư mục con của nó có bao nhiêu tập tin có tên bắt đầu bằng ký tự "a"
+
+nhập vào danh sách nv(mã, tên, ngày sinh, địa chỉ, năm công tác).  sắp xếp theo thứ tự tăng dân của năm công tác, in ra những nhân viên nào có địa chỉ tại "Hải phòng" 
+
+40_ThanhPT_86549.rar
