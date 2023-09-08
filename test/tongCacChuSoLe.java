@@ -16,6 +16,5 @@ public class tongCacChuSoLe {
         }
         System.out.println("tong cac chu so le: " + sumLe);
         sc.close();
-        ;
     }
 }
