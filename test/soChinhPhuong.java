@@ -14,7 +14,7 @@ public class soChinhPhuong {
         for (int i = a; i <= b; i++) {
             int j = 0;
             while (j * j <= i) {
-                if (i * i == n) {
+                if (j * j == i) {
                     sum += i;
                     count++;
                 }
