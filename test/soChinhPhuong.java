@@ -21,6 +21,6 @@ public class soChinhPhuong {
                 ++j;
             }
         }
-
+        /// vi du 1 chut
     }
 }
