@@ -1,6 +1,9 @@
 import java.util.*;
 
-public class Student {
+
+
+public class quanLyHocSinh {
+    public static class Student {
     int MaSV;
     String HoTen;
     int NamSinh;
@@ -41,8 +44,6 @@ public class Student {
     }
 
 }
-
-public class quanLyHocSinh {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

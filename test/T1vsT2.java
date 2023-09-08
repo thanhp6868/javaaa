@@ -5,9 +5,11 @@ public class T1vsT2 {
         int iChan = 0;
         int iLe = 0;
         int n;
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap n: ");
         n = sc.nextInt();
+        
         int i = 0;
         while (n > 0) {
             i++;
@@ -22,7 +24,7 @@ public class T1vsT2 {
         System.out.println("tong cac so vi tri le: ");
         if (i % 2 == 0) {
             System.out.println(iChan);
-        } else
+        }else
             System.out.println(iLe);
 
         sc.close();
