@@ -5,6 +5,6 @@ public class Testgit {
         Scanner sc = new Scanner(System.in);
         Scanner sc2 = new Scanner(System.in);
         int n;
-        n = sc.nextLine();
+        n = sc.nextInt();
     }
 }
