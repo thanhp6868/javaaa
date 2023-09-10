@@ -25,6 +25,7 @@ public class in_100_ki_tu_trong_tap_tin {
 				System.out.println("Nội dung " + Math.min(bytesRead, 100) + "kí tự đầu tiên trong tập tin:");
 				System.out.println(content);
 			}
+			//[tiến, tiến2,..] -> tiến tiến2
 		}catch (IOException e) {
 			System.out.println("Lỗi đọc tập tin: " + e.getMessage());
 		}finally {

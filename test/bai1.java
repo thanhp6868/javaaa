@@ -9,10 +9,11 @@ public class bai1 {
         System.out.println("Nhap n:");
         n = sc.nextInt();
 
-        int[] a = new int[n];
+        int[] a = new int[n]; 
         for (int i = 0; i < n; i++) {
             System.out.println("so thu " + (i + 1) + ":");
             a[i] = sc.nextInt();
+            //cin>>a[i]
         }
         int s = 0;
         int count = 0;

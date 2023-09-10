@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 public class tinhDaySo {
     public static void main(String[] args) {
         // khai báo biến:
@@ -12,6 +13,5 @@ public class tinhDaySo {
             s += ((i + (i + 1)) / ((i + 1) + (i + 2)));
         }
         System.out.println(s);
-        sc.close();
     }
 }
