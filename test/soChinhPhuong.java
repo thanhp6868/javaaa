@@ -9,20 +9,20 @@ public class soChinhPhuong {
         // a = sc.nextInt();
         // System.out.println("Nhap b: ");
         // b = sc.nextInt();
-        
         // int sum = 0;
         // int count = 0;
         // for (int i = a; i <= b; i++) {
-        //     int j = 0;
-        //     while (j * j <= i) {
-        //         if (j * j == i) {
-        //             sum += i;
-        //             count++;
-        //         }
-        //         ++j;
-        //     }
+        // int j = 0;
+        // while (j * j <= i) {
+        // if (j * j == i) {
+        // sum += i;
+        // count++;
         // }
-        
+        // ++j;
+        // }
+        // }
+
+        // bai giai thua
         int n;
         n = sc.nextInt();
         float sum2 = (float) 3 / 2;
