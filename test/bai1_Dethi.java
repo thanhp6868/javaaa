@@ -21,7 +21,7 @@ public class bai1_Dethi {
                     sum += i;
                     count++;
                 }
-                ++j;
+                j++;
             }
         }
         System.out.println((float) sum / count);

@@ -20,6 +20,7 @@ public class bai2_DeThi {
         public String toString() {
             return this.real + this.image + "i";
         }
+        // z= a + b* i
 
         public double getReal() {
             return this.real;
@@ -30,7 +31,7 @@ public class bai2_DeThi {
         }
 
         public double modulus() {
-            double modul = (double) this.real * thi.real + (double) this.image * this.image;
+            double modul = (double) this.real * thi.real + (double) this.image * this.image; //
             return sqrt(modul);
         }
     }
@@ -51,7 +52,7 @@ public class bai2_DeThi {
         }
 
         public String toString() {
-            return "(" + this.x + "," + this.y + ")";
+            return "(" + this.x + "," + this.y + ")"; // (x,y)
         }
 
         public void move(double dx, double dy) {
@@ -83,6 +84,24 @@ public class bai2_DeThi {
 
         public double estimate(double dischargePower) {
             return dischargePower;
+        }
+
+    }
+
+    // de 5 - coupon
+    public class Coupon {
+        private String code;
+        private double priceRatio;
+        private boolean used;
+
+        public Coupon(String code, double priceRatio) {
+            this.code = code;
+            this.priceRatio = priceRatio;
+        }
+
+        public Coupon(String code) {
+            this.code = code;
+            this.priceRatio = 0.9;
         }
 
     }
