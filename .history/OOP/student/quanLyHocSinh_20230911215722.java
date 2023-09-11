@@ -49,7 +49,6 @@ public class quanLyHocSinh {
                     listStudents.set(j + 1, st1);
                 }
             }
-
         }
         System.out.println("In danh sach HS");
         for (Student st : listStudents) {
